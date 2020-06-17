@@ -1,0 +1,17 @@
+.card {
+  background: #fff;
+}
+
+.card .content-container {
+  margin: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.card .content-container h3 {
+  padding: 0.5rem 0;
+}
+
+.card .content-container p {
+  text-align: justify;
+  padding: 0.5rem 0;
+}

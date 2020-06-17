@@ -1,0 +1,55 @@
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.self-introduction {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 2rem 0;
+  margin-bottom: 1rem;
+}
+
+.self-introduction h2 {
+  padding: 1rem 0;
+}
+
+.self-introduction p {
+  padding: 0.5rem 0;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 2rem;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem 2rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 600px) {
+  .self-introduction {
+    display: block;
+    align-items: center;
+    margin: auto;
+  }
+
+  .avatar {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .work-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+}
