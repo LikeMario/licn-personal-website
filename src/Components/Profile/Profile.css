@@ -34,7 +34,7 @@
   margin: 2rem 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .self-introduction {
     display: block;
     align-items: center;

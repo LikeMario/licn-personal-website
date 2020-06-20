@@ -31,8 +31,8 @@ const publicWorks = [
         tooltip: "",
       },
       {
-        name: "download",
-        url: "#home", // ToDo
+        name: "download-thesis",
+        url: "/data/public/master-thesis/papers.zip",
         className: "fas fa-download",
         tooltip: "thesis",
       },
@@ -46,8 +46,8 @@ const publicWorks = [
     links: [
       {
         name: "licn",
-        url: "#home",
-        className: "fas fa-home",
+        url: "https://github.com/LikeMario/licn-personal-website",
+        className: "fab fa-github",
       },
     ],
   },
