@@ -51,6 +51,23 @@ const publicWorks = [
       },
     ],
   },
+  {
+    title: "Browser User Scripts",
+    htmlText: "<p>My user scripts will be shared. For example, <i>Simplify Udemy Quiz</i> makes changes on the quiz in udemy.com, so that user can copy options and print all questions.</p>",
+    image: "Greasemonkey.png",
+    links: [
+      {
+        name: "browser-user-script",
+        url: "https://github.com/LikeMario/browser-user-script",
+        className: "fab fa-github",
+      },
+      {
+        name: "simplify-udemy-quiz",
+        url: "https://greasyfork.org/en/scripts/408342-simplify-udemy-quiz",
+        className: "fas fa-link",
+      },
+    ],
+  },
 ];
 
 const acclaimCertificates = {
