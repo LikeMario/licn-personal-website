@@ -1,7 +1,7 @@
 const socialLinks = [
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/likemario/",
+    url: "https://www.linkedin.com/in/licn/",
     className: "fab fa-linkedin",
   },
   {

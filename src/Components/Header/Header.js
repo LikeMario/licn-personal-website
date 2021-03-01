@@ -9,9 +9,9 @@ const Header = () => {
     <header id="home" className="cover">
       <div className="hero">
         <h1>
-          <span className="key-words">Cloud Native</span> Personal Website
+          <span className="key-words">A Cloud Space</span> 
         </h1>
-        <p>Developed by Chen Li</p>
+        <p>Owned by Chen Li</p>
       </div>
       <div className="links">
         {config.socialLinks.map((link) => {
